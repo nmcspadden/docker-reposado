@@ -17,7 +17,5 @@ RUN tar -xvzf /master.tar.gz --strip-components=1 -C /reposado/ && rm /master.ta
 VOLUME /reposado/html
 VOLUME /reposado/metadata
 
-EXPOSE 8080
-
 RUN rm -f /etc/nginx/sites-enabled/default && rm -f /etc/service/nginx/down
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
