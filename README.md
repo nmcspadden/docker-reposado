@@ -38,7 +38,8 @@ Then, check the catalog you downloaded to see the CatalogName key:
 	<key>_CatalogName</key>  
 	<string>index-lion-snowleopard-leopard.merged-1_testing.sucatalog</string>  
 </dict>  
-</plist>```
+</plist>
+```
 
 To sync the repo:  
 `docker exec reposado python /reposado/code/repo_sync`
