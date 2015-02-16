@@ -33,7 +33,7 @@ From the [Reposado URL rewrite documentation:](https://github.com/wdas/reposado/
 where `docker_ip` is the IP address of your Docker host.
 
 Then, check the catalog you downloaded to see the CatalogName key:  
-	$ tail -5 /tmp/testing  
+`$ tail -5 /tmp/testing`  
 ```	</dict>  
 	<key>_CatalogName</key>  
 	<string>index-lion-snowleopard-leopard.merged-1_testing.sucatalog</string>  
